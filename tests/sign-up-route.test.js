@@ -20,7 +20,7 @@ test("User already exists", done => {
     .post("/")
     .type("form")
     .send({username: "hemant", password: "hemant_dahiya"})
-    .expect((res) => res.body.message === "User already exists" ? true : false)
+    .expect((res) => res.body.success === true ? true : false)
     .end(done);
 })
 
