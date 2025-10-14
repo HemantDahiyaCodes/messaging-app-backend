@@ -1,0 +1,4 @@
+- Create a `homeRoute` and a `homeRouteController`
+- Send a GET request to get this resource which is protected by the cookie based authentication.
+- Once the user has access, make a GET request to the friendlist, allUsers and Profile routes from database
+- Return the routes as response
