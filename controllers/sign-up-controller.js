@@ -17,7 +17,7 @@ async function signUp(req, res) {
     });
 
     if (user) {
-      return res.json({ message: "User already exists" });
+      return res.json({ success: false});
     }
 
     // hash password
